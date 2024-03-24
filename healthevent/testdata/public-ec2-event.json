@@ -1,0 +1,33 @@
+{
+  "version": "0",
+  "id": "7bf73129-1428-4cd3-a780-95db273d1602",
+  "detail-type": "AWS Health Event",
+  "source": "aws.health",
+  "account": "123456789012",
+  "time": "2023-01-27T09:01:22Z",
+  "region": "af-south-1",
+  "resources": [],
+  "detail": {
+    "eventArn": "arn:aws:health:af-south-1::event/EC2/AWS_EC2_OPERATIONAL_ISSUE/AWS_EC2_OPERATIONAL_ISSUE_7f35c8ae-af1f-54e6-a526-d0179ed6d68f",
+    "service": "EC2",
+    "eventTypeCode": "AWS_EC2_OPERATIONAL_ISSUE",
+    "eventTypeCategory": "issue",
+    "eventScopeCode": "PUBLIC",
+    "communicationId": "01b0993207d81a09dcd552ebd1e633e36cf1f09a-1",
+    "startTime": "Fri, 27 Jan 2023 06:02:51 GMT",
+    "endTime": "Fri, 27 Jan 2023 09:01:22 GMT",
+    "lastUpdatedTime": "Fri, 27 Jan 2023 09:01:22 GMT",
+    "statusCode": "open",
+    "eventRegion": "af-south-1",
+    "eventDescription": [
+      {
+        "language": "en_US",
+        "latestDescription": "Current severity level: Operating normally\n\n[RESOLVED] \n\n [03:15 PM PST] We continue see recovery \n\nThe following AWS services were previously impacted but are now operating normally: APPSYNC, BACKUP, EVENTS."
+      }
+    ],
+    "affectedEntities": [],
+    "page": "1",
+    "totalPages": "1",
+    "affectedAccount": "123456789012"
+  }
+}
